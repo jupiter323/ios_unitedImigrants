@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DashBoardViewController.h
 //  UnitedI
 //
 //  Created by Peace on 10/29/18.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface DashBoardViewController : RootViewController
 
 @end
-

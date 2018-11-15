@@ -7,27 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		758928A7897495DF9B25803C /* Pods_UnitedI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118FB579D7E3DC1B494ECFCB /* Pods_UnitedI.framework */; };
+		CE057FE5218BF89A0096972F /* UpgradeMembershipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE057FE4218BF89A0096972F /* UpgradeMembershipViewController.m */; };
+		CE057FE9218C6F260096972F /* TutorialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE057FE8218C6F260096972F /* TutorialsViewController.m */; };
+		CE057FEC218C8B700096972F /* TutorialRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE057FEB218C8B700096972F /* TutorialRootViewController.m */; };
+		CE111DBA21889E2B005253FD /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CE111DB821889E2A005253FD /* Utilities.m */; };
+		CE111DC121889FE7005253FD /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE111DBE21889FE7005253FD /* PDKeychainBindings.m */; };
+		CE111DC221889FE7005253FD /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE111DC021889FE7005253FD /* PDKeychainBindingsController.m */; };
+		CE111DC62188A00B005253FD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE111DC52188A00B005253FD /* RootViewController.m */; };
+		CE1ECE712189F05100157A2D /* EligibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1ECE702189F05100157A2D /* EligibilityViewController.m */; };
+		CE1ECE74218A25B500157A2D /* DashBoardRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1ECE73218A25B500157A2D /* DashBoardRootViewController.m */; };
+		CE1ECE77218A269100157A2D /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1ECE76218A269100157A2D /* RightMenuViewController.m */; };
+		CE1ECE7B218A372600157A2D /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1ECE7A218A372600157A2D /* NewsViewController.m */; };
+		CE4D4A62218DF413006D7232 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4D4A61218DF413006D7232 /* NewsTableViewCell.m */; };
+		CE6B7CFD218A8D8A0009610F /* NewsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7CFC218A8D8A0009610F /* NewsRootViewController.m */; };
+		CE6B7D02218AB08F0009610F /* SendingAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7D01218AB08F0009610F /* SendingAlertViewController.m */; };
+		CE6B7D06218AB6570009610F /* ReportSentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7D05218AB6570009610F /* ReportSentViewController.m */; };
+		CE6B7D0A218ACE8D0009610F /* RecordingInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7D09218ACE8D0009610F /* RecordingInViewController.m */; };
+		CE81C8A4218752E4007408B2 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81C8A3218752E4007408B2 /* DashBoardViewController.m */; };
+		CE81C8AE218761F0007408B2 /* BasicInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81C8AD218761F0007408B2 /* BasicInfoViewController.m */; };
+		CE81C8B221876559007408B2 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81C8B121876559007408B2 /* PersonalInfoViewController.m */; };
+		CE81C8B621876D4B007408B2 /* EmergencyContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81C8B521876D4B007408B2 /* EmergencyContactViewController.m */; };
+		CE81C8BA2187709E007408B2 /* SelectMembershipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81C8B92187709E007408B2 /* SelectMembershipViewController.m */; };
+		CE81C8BE21877669007408B2 /* FamilyMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81C8BD21877669007408B2 /* FamilyMembersViewController.m */; };
+		CE81C8C2218783BA007408B2 /* SlidePagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81C8C1218783BA007408B2 /* SlidePagesViewController.m */; };
+		CEA63314218CA1B500455185 /* ReportRaidRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA63313218CA1B500455185 /* ReportRaidRootViewController.m */; };
 		CEA713BD218729F80031A888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA713BC218729F80031A888 /* AppDelegate.m */; };
-		CEA713C0218729F80031A888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA713BF218729F80031A888 /* ViewController.m */; };
 		CEA713C3218729F80031A888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA713C1218729F80031A888 /* Main.storyboard */; };
 		CEA713C6218729F80031A888 /* UnitedI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA713C4218729F80031A888 /* UnitedI.xcdatamodeld */; };
 		CEA713C821872A020031A888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA713C721872A020031A888 /* Assets.xcassets */; };
 		CEA713CB21872A020031A888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA713C921872A020031A888 /* LaunchScreen.storyboard */; };
 		CEA713CE21872A020031A888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA713CD21872A020031A888 /* main.m */; };
+		CEFFB0E9218B4227007E95C6 /* VideoSentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFB0E8218B4227007E95C6 /* VideoSentViewController.m */; };
+		CEFFB0EE218B738C007E95C6 /* ReportRaidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFB0ED218B738B007E95C6 /* ReportRaidViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		118FB579D7E3DC1B494ECFCB /* Pods_UnitedI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitedI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29254225AD539E44CACF4F04 /* Pods-UnitedI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedI.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedI/Pods-UnitedI.release.xcconfig"; sourceTree = "<group>"; };
+		9AD96BF2FF4A3A3E8DFC77D8 /* Pods-UnitedI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedI/Pods-UnitedI.debug.xcconfig"; sourceTree = "<group>"; };
+		CE057FE3218BF89A0096972F /* UpgradeMembershipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpgradeMembershipViewController.h; sourceTree = "<group>"; };
+		CE057FE4218BF89A0096972F /* UpgradeMembershipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpgradeMembershipViewController.m; sourceTree = "<group>"; };
+		CE057FE7218C6F250096972F /* TutorialsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialsViewController.h; sourceTree = "<group>"; };
+		CE057FE8218C6F260096972F /* TutorialsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialsViewController.m; sourceTree = "<group>"; };
+		CE057FEA218C8B700096972F /* TutorialRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialRootViewController.h; sourceTree = "<group>"; };
+		CE057FEB218C8B700096972F /* TutorialRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialRootViewController.m; sourceTree = "<group>"; };
+		CE111DB721889E2A005253FD /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		CE111DB821889E2A005253FD /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		CE111DB921889E2B005253FD /* Utiliti2es.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utiliti2es.h; sourceTree = "<group>"; };
+		CE111DBD21889FE7005253FD /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		CE111DBE21889FE7005253FD /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		CE111DBF21889FE7005253FD /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		CE111DC021889FE7005253FD /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
+		CE111DC42188A00B005253FD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CE111DC52188A00B005253FD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CE1ECE6F2189F05100157A2D /* EligibilityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EligibilityViewController.h; sourceTree = "<group>"; };
+		CE1ECE702189F05100157A2D /* EligibilityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EligibilityViewController.m; sourceTree = "<group>"; };
+		CE1ECE72218A25B500157A2D /* DashBoardRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashBoardRootViewController.h; sourceTree = "<group>"; };
+		CE1ECE73218A25B500157A2D /* DashBoardRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashBoardRootViewController.m; sourceTree = "<group>"; };
+		CE1ECE75218A269100157A2D /* RightMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
+		CE1ECE76218A269100157A2D /* RightMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
+		CE1ECE79218A372600157A2D /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		CE1ECE7A218A372600157A2D /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		CE4D4A60218DF412006D7232 /* NewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		CE4D4A61218DF413006D7232 /* NewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		CE6B7CFB218A8D890009610F /* NewsRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsRootViewController.h; sourceTree = "<group>"; };
+		CE6B7CFC218A8D8A0009610F /* NewsRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsRootViewController.m; sourceTree = "<group>"; };
+		CE6B7D00218AB08F0009610F /* SendingAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendingAlertViewController.h; sourceTree = "<group>"; };
+		CE6B7D01218AB08F0009610F /* SendingAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendingAlertViewController.m; sourceTree = "<group>"; };
+		CE6B7D04218AB6570009610F /* ReportSentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportSentViewController.h; sourceTree = "<group>"; };
+		CE6B7D05218AB6570009610F /* ReportSentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportSentViewController.m; sourceTree = "<group>"; };
+		CE6B7D08218ACE8D0009610F /* RecordingInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordingInViewController.h; sourceTree = "<group>"; };
+		CE6B7D09218ACE8D0009610F /* RecordingInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordingInViewController.m; sourceTree = "<group>"; };
+		CE81C8A2218752E4007408B2 /* DashBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
+		CE81C8A3218752E4007408B2 /* DashBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
+		CE81C8AC218761F0007408B2 /* BasicInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicInfoViewController.h; sourceTree = "<group>"; };
+		CE81C8AD218761F0007408B2 /* BasicInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicInfoViewController.m; sourceTree = "<group>"; };
+		CE81C8B021876559007408B2 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
+		CE81C8B121876559007408B2 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
+		CE81C8B421876D4B007408B2 /* EmergencyContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmergencyContactViewController.h; sourceTree = "<group>"; };
+		CE81C8B521876D4B007408B2 /* EmergencyContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmergencyContactViewController.m; sourceTree = "<group>"; };
+		CE81C8B82187709E007408B2 /* SelectMembershipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectMembershipViewController.h; sourceTree = "<group>"; };
+		CE81C8B92187709E007408B2 /* SelectMembershipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectMembershipViewController.m; sourceTree = "<group>"; };
+		CE81C8BC21877669007408B2 /* FamilyMembersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyMembersViewController.h; sourceTree = "<group>"; };
+		CE81C8BD21877669007408B2 /* FamilyMembersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyMembersViewController.m; sourceTree = "<group>"; };
+		CE81C8C0218783BA007408B2 /* SlidePagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidePagesViewController.h; sourceTree = "<group>"; };
+		CE81C8C1218783BA007408B2 /* SlidePagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidePagesViewController.m; sourceTree = "<group>"; };
+		CEA63312218CA1B500455185 /* ReportRaidRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportRaidRootViewController.h; sourceTree = "<group>"; };
+		CEA63313218CA1B500455185 /* ReportRaidRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportRaidRootViewController.m; sourceTree = "<group>"; };
 		CEA713B8218729F80031A888 /* UnitedI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitedI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA713BB218729F80031A888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEA713BC218729F80031A888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEA713BE218729F80031A888 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEA713BF218729F80031A888 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEA713C2218729F80031A888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA713C5218729F80031A888 /* UnitedI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnitedI.xcdatamodel; sourceTree = "<group>"; };
 		CEA713C721872A020031A888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA713CA21872A020031A888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA713CC21872A020031A888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA713CD21872A020031A888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFFB0E7218B4227007E95C6 /* VideoSentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoSentViewController.h; sourceTree = "<group>"; };
+		CEFFB0E8218B4227007E95C6 /* VideoSentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoSentViewController.m; sourceTree = "<group>"; };
+		CEFFB0EC218B738B007E95C6 /* ReportRaidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportRaidViewController.h; sourceTree = "<group>"; };
+		CEFFB0ED218B738B007E95C6 /* ReportRaidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportRaidViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +115,277 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758928A7897495DF9B25803C /* Pods_UnitedI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11432D8B04FFACF7B1278CFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118FB579D7E3DC1B494ECFCB /* Pods_UnitedI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B90A126F86354419BE2DFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AD96BF2FF4A3A3E8DFC77D8 /* Pods-UnitedI.debug.xcconfig */,
+				29254225AD539E44CACF4F04 /* Pods-UnitedI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE057FE2218BF8420096972F /* UpgradeMembership */ = {
+			isa = PBXGroup;
+			children = (
+				CE057FE3218BF89A0096972F /* UpgradeMembershipViewController.h */,
+				CE057FE4218BF89A0096972F /* UpgradeMembershipViewController.m */,
+			);
+			path = UpgradeMembership;
+			sourceTree = "<group>";
+		};
+		CE057FE6218C6EFA0096972F /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				CE057FE7218C6F250096972F /* TutorialsViewController.h */,
+				CE057FE8218C6F260096972F /* TutorialsViewController.m */,
+				CE057FEA218C8B700096972F /* TutorialRootViewController.h */,
+				CE057FEB218C8B700096972F /* TutorialRootViewController.m */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		CE111DB221889D40005253FD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE111DB921889E2B005253FD /* Utiliti2es.h */,
+				CE111DB721889E2A005253FD /* Utilities.h */,
+				CE111DB821889E2A005253FD /* Utilities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CE111DBB21889FC9005253FD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE111DC32188A00B005253FD /* RootModule */,
+				CE111DBC21889FE7005253FD /* PDKeychainBindingsController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE111DBC21889FE7005253FD /* PDKeychainBindingsController */ = {
+			isa = PBXGroup;
+			children = (
+				CE111DBD21889FE7005253FD /* PDKeychainBindings.h */,
+				CE111DBE21889FE7005253FD /* PDKeychainBindings.m */,
+				CE111DBF21889FE7005253FD /* PDKeychainBindingsController.h */,
+				CE111DC021889FE7005253FD /* PDKeychainBindingsController.m */,
+			);
+			path = PDKeychainBindingsController;
+			sourceTree = "<group>";
+		};
+		CE111DC32188A00B005253FD /* RootModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE111DC42188A00B005253FD /* RootViewController.h */,
+				CE111DC52188A00B005253FD /* RootViewController.m */,
+			);
+			path = RootModule;
+			sourceTree = "<group>";
+		};
+		CE1ECE6A2189EA5300157A2D /* MembershipModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE81C8B721877075007408B2 /* SelectMembership */,
+				CE057FE2218BF8420096972F /* UpgradeMembership */,
+				CE1ECE6E2189EF7F00157A2D /* PaymentMethod */,
+			);
+			path = MembershipModule;
+			sourceTree = "<group>";
+		};
+		CE1ECE6B2189EC0B00157A2D /* Eligibility */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ECE6F2189F05100157A2D /* EligibilityViewController.h */,
+				CE1ECE702189F05100157A2D /* EligibilityViewController.m */,
+			);
+			path = Eligibility;
+			sourceTree = "<group>";
+		};
+		CE1ECE6C2189EDF100157A2D /* UniversityModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ECE78218A370300157A2D /* News */,
+				CE057FE6218C6EFA0096972F /* Tutorial */,
+			);
+			path = UniversityModule;
+			sourceTree = "<group>";
+		};
+		CE1ECE6D2189EE1C00157A2D /* ActivityModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ActivityModule;
+			sourceTree = "<group>";
+		};
+		CE1ECE6E2189EF7F00157A2D /* PaymentMethod */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ECE6B2189EC0B00157A2D /* Eligibility */,
+			);
+			path = PaymentMethod;
+			sourceTree = "<group>";
+		};
+		CE1ECE78218A370300157A2D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ECE79218A372600157A2D /* NewsViewController.h */,
+				CE1ECE7A218A372600157A2D /* NewsViewController.m */,
+				CE6B7CFB218A8D890009610F /* NewsRootViewController.h */,
+				CE6B7CFC218A8D8A0009610F /* NewsRootViewController.m */,
+				CE4D4A60218DF412006D7232 /* NewsTableViewCell.h */,
+				CE4D4A61218DF413006D7232 /* NewsTableViewCell.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		CE6B7CFE218AB02C0009610F /* ReportAlertModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B7CFF218AB04F0009610F /* SendingAlert */,
+				CE6B7D03218AB63B0009610F /* ReportSent */,
+				CE6B7D07218ACE6F0009610F /* RecordingIn */,
+				CEFFB0E6218B41D3007E95C6 /* VideoSent */,
+			);
+			path = ReportAlertModule;
+			sourceTree = "<group>";
+		};
+		CE6B7CFF218AB04F0009610F /* SendingAlert */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B7D00218AB08F0009610F /* SendingAlertViewController.h */,
+				CE6B7D01218AB08F0009610F /* SendingAlertViewController.m */,
+			);
+			path = SendingAlert;
+			sourceTree = "<group>";
+		};
+		CE6B7D03218AB63B0009610F /* ReportSent */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B7D04218AB6570009610F /* ReportSentViewController.h */,
+				CE6B7D05218AB6570009610F /* ReportSentViewController.m */,
+			);
+			path = ReportSent;
+			sourceTree = "<group>";
+		};
+		CE6B7D07218ACE6F0009610F /* RecordingIn */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B7D08218ACE8D0009610F /* RecordingInViewController.h */,
+				CE6B7D09218ACE8D0009610F /* RecordingInViewController.m */,
+			);
+			path = RecordingIn;
+			sourceTree = "<group>";
+		};
+		CE81C8A121875256007408B2 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE81C8AA218761B4007408B2 /* BasicInfo */,
+				CE81C8AF2187653A007408B2 /* PersonalInfo */,
+				CE81C8B321876D30007408B2 /* EmergencyContact */,
+				CE81C8BB2187764A007408B2 /* FamilyMembers */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		CE81C8A521875327007408B2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE111DBB21889FC9005253FD /* Modules */,
+				CE111DB221889D40005253FD /* Utilities */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE81C8AA218761B4007408B2 /* BasicInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CE81C8AC218761F0007408B2 /* BasicInfoViewController.h */,
+				CE81C8AD218761F0007408B2 /* BasicInfoViewController.m */,
+			);
+			path = BasicInfo;
+			sourceTree = "<group>";
+		};
+		CE81C8AB218761C1007408B2 /* DashBoardModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ECE72218A25B500157A2D /* DashBoardRootViewController.h */,
+				CE1ECE73218A25B500157A2D /* DashBoardRootViewController.m */,
+				CE81C8A2218752E4007408B2 /* DashBoardViewController.h */,
+				CE81C8A3218752E4007408B2 /* DashBoardViewController.m */,
+				CE1ECE75218A269100157A2D /* RightMenuViewController.h */,
+				CE1ECE76218A269100157A2D /* RightMenuViewController.m */,
+			);
+			path = DashBoardModule;
+			sourceTree = "<group>";
+		};
+		CE81C8AF2187653A007408B2 /* PersonalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CE81C8B021876559007408B2 /* PersonalInfoViewController.h */,
+				CE81C8B121876559007408B2 /* PersonalInfoViewController.m */,
+			);
+			path = PersonalInfo;
+			sourceTree = "<group>";
+		};
+		CE81C8B321876D30007408B2 /* EmergencyContact */ = {
+			isa = PBXGroup;
+			children = (
+				CE81C8B421876D4B007408B2 /* EmergencyContactViewController.h */,
+				CE81C8B521876D4B007408B2 /* EmergencyContactViewController.m */,
+			);
+			path = EmergencyContact;
+			sourceTree = "<group>";
+		};
+		CE81C8B721877075007408B2 /* SelectMembership */ = {
+			isa = PBXGroup;
+			children = (
+				CE81C8B82187709E007408B2 /* SelectMembershipViewController.h */,
+				CE81C8B92187709E007408B2 /* SelectMembershipViewController.m */,
+			);
+			path = SelectMembership;
+			sourceTree = "<group>";
+		};
+		CE81C8BB2187764A007408B2 /* FamilyMembers */ = {
+			isa = PBXGroup;
+			children = (
+				CE81C8BC21877669007408B2 /* FamilyMembersViewController.h */,
+				CE81C8BD21877669007408B2 /* FamilyMembersViewController.m */,
+			);
+			path = FamilyMembers;
+			sourceTree = "<group>";
+		};
+		CE81C8BF21878394007408B2 /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE81C8C0218783BA007408B2 /* SlidePagesViewController.h */,
+				CE81C8C1218783BA007408B2 /* SlidePagesViewController.m */,
+			);
+			path = FirstPage;
+			sourceTree = "<group>";
+		};
 		CEA713AF218729F80031A888 = {
 			isa = PBXGroup;
 			children = (
 				CEA713BA218729F80031A888 /* UnitedI */,
 				CEA713B9218729F80031A888 /* Products */,
+				17B90A126F86354419BE2DFD /* Pods */,
+				11432D8B04FFACF7B1278CFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,18 +400,62 @@
 		CEA713BA218729F80031A888 /* UnitedI */ = {
 			isa = PBXGroup;
 			children = (
-				CEA713BB218729F80031A888 /* AppDelegate.h */,
-				CEA713BC218729F80031A888 /* AppDelegate.m */,
-				CEA713BE218729F80031A888 /* ViewController.h */,
-				CEA713BF218729F80031A888 /* ViewController.m */,
-				CEA713C1218729F80031A888 /* Main.storyboard */,
+				CE81C8BF21878394007408B2 /* FirstPage */,
+				CE81C8A121875256007408B2 /* ProfileModule */,
+				CE1ECE6A2189EA5300157A2D /* MembershipModule */,
+				CE81C8AB218761C1007408B2 /* DashBoardModule */,
+				CE6B7CFE218AB02C0009610F /* ReportAlertModule */,
+				CEFFB0EA218B7208007E95C6 /* ReportNearbyModule */,
+				CE1ECE6C2189EDF100157A2D /* UniversityModule */,
+				CE1ECE6D2189EE1C00157A2D /* ActivityModule */,
+				CE81C8A521875327007408B2 /* Common */,
+				CEA713D421872A390031A888 /* Supports */,
 				CEA713C721872A020031A888 /* Assets.xcassets */,
-				CEA713C921872A020031A888 /* LaunchScreen.storyboard */,
 				CEA713CC21872A020031A888 /* Info.plist */,
 				CEA713CD21872A020031A888 /* main.m */,
 				CEA713C4218729F80031A888 /* UnitedI.xcdatamodeld */,
 			);
 			path = UnitedI;
+			sourceTree = "<group>";
+		};
+		CEA713D421872A390031A888 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				CEA713BB218729F80031A888 /* AppDelegate.h */,
+				CEA713BC218729F80031A888 /* AppDelegate.m */,
+				CEA713C1218729F80031A888 /* Main.storyboard */,
+				CEA713C921872A020031A888 /* LaunchScreen.storyboard */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		CEFFB0E6218B41D3007E95C6 /* VideoSent */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFB0E7218B4227007E95C6 /* VideoSentViewController.h */,
+				CEFFB0E8218B4227007E95C6 /* VideoSentViewController.m */,
+			);
+			path = VideoSent;
+			sourceTree = "<group>";
+		};
+		CEFFB0EA218B7208007E95C6 /* ReportNearbyModule */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFB0EB218B7258007E95C6 /* ReportRaid */,
+			);
+			name = ReportNearbyModule;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CEFFB0EB218B7258007E95C6 /* ReportRaid */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFB0EC218B738B007E95C6 /* ReportRaidViewController.h */,
+				CEFFB0ED218B738B007E95C6 /* ReportRaidViewController.m */,
+				CEA63312218CA1B500455185 /* ReportRaidRootViewController.h */,
+				CEA63313218CA1B500455185 /* ReportRaidRootViewController.m */,
+			);
+			path = ReportRaid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,9 +465,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA713D121872A020031A888 /* Build configuration list for PBXNativeTarget "UnitedI" */;
 			buildPhases = (
+				02113C7850D93F6E3F78EDE3 /* [CP] Check Pods Manifest.lock */,
 				CEA713B4218729F80031A888 /* Sources */,
 				CEA713B5218729F80031A888 /* Frameworks */,
 				CEA713B6218729F80031A888 /* Resources */,
+				CF1FE0143923ED85D9A21CED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,15 +525,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02113C7850D93F6E3F78EDE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitedI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1FE0143923ED85D9A21CED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnitedI/Pods-UnitedI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LMSideBarController/LMSideBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/MKDropdownMenu/MKDropdownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework",
+				"${BUILT_PRODUCTS_DIR}/Unirest/Unirest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMSideBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MKDropdownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView_Objective_C.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unirest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitedI/Pods-UnitedI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEA713B4218729F80031A888 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA713C0218729F80031A888 /* ViewController.m in Sources */,
+				CE057FE9218C6F260096972F /* TutorialsViewController.m in Sources */,
+				CEFFB0EE218B738C007E95C6 /* ReportRaidViewController.m in Sources */,
 				CEA713BD218729F80031A888 /* AppDelegate.m in Sources */,
+				CE6B7D0A218ACE8D0009610F /* RecordingInViewController.m in Sources */,
+				CE81C8BA2187709E007408B2 /* SelectMembershipViewController.m in Sources */,
+				CE4D4A62218DF413006D7232 /* NewsTableViewCell.m in Sources */,
+				CE81C8AE218761F0007408B2 /* BasicInfoViewController.m in Sources */,
+				CEFFB0E9218B4227007E95C6 /* VideoSentViewController.m in Sources */,
+				CE1ECE74218A25B500157A2D /* DashBoardRootViewController.m in Sources */,
+				CE81C8C2218783BA007408B2 /* SlidePagesViewController.m in Sources */,
+				CE81C8B621876D4B007408B2 /* EmergencyContactViewController.m in Sources */,
+				CE057FE5218BF89A0096972F /* UpgradeMembershipViewController.m in Sources */,
+				CE057FEC218C8B700096972F /* TutorialRootViewController.m in Sources */,
+				CEA63314218CA1B500455185 /* ReportRaidRootViewController.m in Sources */,
+				CE111DC221889FE7005253FD /* PDKeychainBindingsController.m in Sources */,
 				CEA713CE21872A020031A888 /* main.m in Sources */,
+				CE111DBA21889E2B005253FD /* Utilities.m in Sources */,
+				CE111DC62188A00B005253FD /* RootViewController.m in Sources */,
 				CEA713C6218729F80031A888 /* UnitedI.xcdatamodeld in Sources */,
+				CE6B7CFD218A8D8A0009610F /* NewsRootViewController.m in Sources */,
+				CE81C8B221876559007408B2 /* PersonalInfoViewController.m in Sources */,
+				CE81C8A4218752E4007408B2 /* DashBoardViewController.m in Sources */,
+				CE111DC121889FE7005253FD /* PDKeychainBindings.m in Sources */,
+				CE6B7D06218AB6570009610F /* ReportSentViewController.m in Sources */,
+				CE1ECE77218A269100157A2D /* RightMenuViewController.m in Sources */,
+				CE1ECE7B218A372600157A2D /* NewsViewController.m in Sources */,
+				CE81C8BE21877669007408B2 /* FamilyMembersViewController.m in Sources */,
+				CE6B7D02218AB08F0009610F /* SendingAlertViewController.m in Sources */,
+				CE1ECE712189F05100157A2D /* EligibilityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +741,17 @@
 		};
 		CEA713D221872A020031A888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD96BF2FF4A3A3E8DFC77D8 /* Pods-UnitedI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9TPX8D925;
 				INFOPLIST_FILE = UnitedI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yves.blindycom.UnitedI;
+				PRODUCT_BUNDLE_IDENTIFIER = yves.blindy.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,15 +759,17 @@
 		};
 		CEA713D321872A020031A888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29254225AD539E44CACF4F04 /* Pods-UnitedI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9TPX8D925;
 				INFOPLIST_FILE = UnitedI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yves.blindycom.UnitedI;
+				PRODUCT_BUNDLE_IDENTIFIER = yves.blindy.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

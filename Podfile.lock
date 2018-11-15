@@ -1,0 +1,28 @@
+PODS:
+  - LMSideBarController (1.0.1)
+  - MKDropdownMenu (1.4)
+  - SCLAlertView-Objective-C (1.1.5)
+  - Unirest (1.1.4)
+
+DEPENDENCIES:
+  - LMSideBarController
+  - MKDropdownMenu
+  - SCLAlertView-Objective-C
+  - Unirest (~> 1.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LMSideBarController
+    - MKDropdownMenu
+    - SCLAlertView-Objective-C
+    - Unirest
+
+SPEC CHECKSUMS:
+  LMSideBarController: bfbe56b30c76a541918b4c3f8972f64a49b295a1
+  MKDropdownMenu: 269df4a41d21a1db684ce8bc709befe419fc5bae
+  SCLAlertView-Objective-C: 69c8932c332ce61ee9e693379451e2c0b09fb307
+  Unirest: 5e4d93eaf32463bf619a4ecd3bbc8c32acf21eac
+
+PODFILE CHECKSUM: d9a3c216fd5a42c658acb0c1f8bd9b823c29ebc6
+
+COCOAPODS: 1.5.3
